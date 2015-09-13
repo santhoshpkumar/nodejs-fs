@@ -1,7 +1,7 @@
 # nodejs-fs
-## Explore fs module for nodejs
+### Explore fs module for nodejs
 
-### The purpose of this project is to document and learn fs module usage in nodejs projects.
+#### The purpose of this project is to document and learn fs module usage in nodejs projects.
 
 **fs** module is used for file based operations.
 
@@ -34,7 +34,7 @@ error - This event is fired when there is any error receiving or writing data.
 
 finish - This event is fired when all data has been flushed to underlying system
 
-#### File Operations
+##### File Operations
 
 Following is the syntax of the method to open a file in asynchronous mode:
 ```
@@ -103,6 +103,6 @@ A timer cannot span more than 24.8 days.
 
 This function returns an opaque value that represents the timer which can be used to clear the timer using the function **clearInterval(t)**.
 
-**console** object is used to Used to print information on stdout and stderr.
+**console** object is used to print information on stdout and stderr.
 
 **process** object is used to get information on current process. Provides multiple events related to process activities.
