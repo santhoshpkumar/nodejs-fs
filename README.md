@@ -4,7 +4,9 @@
 #### The purpose of this project is to document and learn fs module usage in nodejs projects.
 
 **fs** module is used for file based operations.
-
+```
+var fs = require("fs")
+```
 **fs** module provides both synchronous as well as asynchronous methods.
  
 Every method in fs module have synchronous as well as asynchronous form. 
