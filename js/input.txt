@@ -1,0 +1,3 @@
+Every method in fs module have synchronous as well as asynchronous form.
+Asynchronous methods takes a last parameter as completion function callback and first parameter of the callback function is error.
+It is preferred to use asynchronous method instead of synchronous method as former never block the program execution where the latter one does.
